@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x add_permissions.sh
+chmod u+x add_permissions.sh
