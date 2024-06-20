@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} [ $i$j != oo ] echo $i$j; | tr -c '\n'
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"
